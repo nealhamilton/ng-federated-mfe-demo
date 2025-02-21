@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink, MatSidenavModule, MatListModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'Welcome to the Container App!';
+  title = 'Container App';
   items = [
     { label: 'mfe01', path: '/mfe01' },
     { label: 'mfe02', path: '/mfe02' },

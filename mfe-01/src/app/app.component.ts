@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
+  /**
+   * Notice app root selector is unique across
+   * all micro frontends
+   */
+  selector: 'app-root-01',
+  imports: [],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'mfe-01';
