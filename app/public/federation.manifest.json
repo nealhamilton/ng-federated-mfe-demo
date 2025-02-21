@@ -1,0 +1,7 @@
+{
+  "silly-name-for-mfe-01": "http://localhost:4201/remoteEntry.json",
+  "mfe-02": "http://localhost:4202/remoteEntry.json",
+  "mfe-03": "http://localhost:4203/remoteEntry.json",
+  "mfe-04": "http://localhost:4204/remoteEntry.json",
+  "mfe-05": "http://localhost:4205/remoteEntry.json"
+}
