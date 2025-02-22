@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   /**
+   * INFO:
    * Notice app root selector is unique across
    * all micro frontends
    */
